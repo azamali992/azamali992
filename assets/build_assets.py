@@ -82,7 +82,7 @@ def hero(t):
     </circle>
   </g>
 
-  <text x="64" y="92" font-family={FONT!r} font-size="13" font-weight="700"
+  <text x="64" y="92" font-family={FONT!r} font-size="14.5" font-weight="700"
         letter-spacing="4.2" fill="{t['peach']}">AI &#183; GENAI &#183; MLOPS ENGINEER</text>
 
   <text x="62" y="164" font-family={FONT!r} font-size="60" font-weight="800"
@@ -93,7 +93,7 @@ def hero(t):
   <text x="64" y="222" font-family={FONT!r} font-size="17.5" fill="{t['ink']}" opacity="{0.92 if d else 0.86}">
     Agentic systems, RAG and MLOps &#8212; built to survive production.
   </text>
-  <text x="64" y="252" font-family={FONT!r} font-size="14" fill="{t['muted']}">
+  <text x="64" y="252" font-family={FONT!r} font-size="15.5" fill="{t['muted']}">
     MS Artificial Intelligence @ LUMS &#183; Co-founder @ AZEKTRA &#183; Automation consultant
   </text>
 
@@ -104,9 +104,9 @@ def hero(t):
       <animate attributeName="cx" values="0;300" dur="3.6s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="3.6s" repeatCount="indefinite"/>
     </circle>
-    <text x="0" y="30" text-anchor="middle" font-family={FONT!r} font-size="10" letter-spacing="1.8" fill="{t['muted']}">INGEST</text>
-    <text x="150" y="30" text-anchor="middle" font-family={FONT!r} font-size="10" letter-spacing="1.8" fill="{t['muted']}">GATE</text>
-    <text x="300" y="30" text-anchor="middle" font-family={FONT!r} font-size="10" letter-spacing="1.8" fill="{t['muted']}">SHIP</text>
+    <text x="0" y="30" text-anchor="middle" font-family={FONT!r} font-size="13" letter-spacing="1.8" fill="{t['muted']}">INGEST</text>
+    <text x="150" y="30" text-anchor="middle" font-family={FONT!r} font-size="13" letter-spacing="1.8" fill="{t['muted']}">GATE</text>
+    <text x="300" y="30" text-anchor="middle" font-family={FONT!r} font-size="13" letter-spacing="1.8" fill="{t['muted']}">SHIP</text>
   </g>
 </svg>
 '''
@@ -129,10 +129,10 @@ def impact(t):
     <g transform="translate({x},70)">
       <rect width="264" height="126" rx="12" fill="{t['tile']}" stroke="{t['tileborder']}" stroke-width="1.2"/>
       <rect x="18" y="20" width="26" height="2.5" rx="1.25" fill="{t['primary']}"/>
-      <text x="18" y="70" font-family={FONT!r} font-size="{30 if len(big) < 9 else 25}" font-weight="800"
+      <text x="18" y="70" font-family={FONT!r} font-size="{33 if len(big) < 9 else 27}" font-weight="800"
             letter-spacing="-0.8" fill="{t['ink']}">{big}</text>
-      <text x="18" y="92" font-family={FONT!r} font-size="12.5" fill="{t['ink']}" opacity="0.82">{label}</text>
-      <text x="18" y="110" font-family={FONT!r} font-size="10.5" fill="{t['muted']}">{sub}</text>
+      <text x="18" y="92" font-family={FONT!r} font-size="14.5" fill="{t['ink']}" opacity="0.82">{label}</text>
+      <text x="18" y="112" font-family={FONT!r} font-size="12.5" fill="{t['muted']}">{sub}</text>
     </g>''')
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="228" viewBox="0 0 1200 228" role="img" aria-label="Measured outcomes">
@@ -146,9 +146,9 @@ def impact(t):
   <rect width="1200" height="228" rx="18" fill="url(#ig)"/>
   <rect x="0.6" y="0.6" width="1198.8" height="226.8" rx="18" fill="none" stroke="{t['border']}" stroke-width="1.2"/>
 
-  <text x="24" y="40" font-family={FONT!r} font-size="12.5" font-weight="700"
+  <text x="24" y="40" font-family={FONT!r} font-size="14" font-weight="700"
         letter-spacing="3.6" fill="{t['peach']}">MEASURED OUTCOMES</text>
-  <text x="24" y="58" font-family={FONT!r} font-size="11.5" fill="{t['muted']}">
+  <text x="24" y="58" font-family={FONT!r} font-size="13" fill="{t['muted']}">
     Every figure below is measured on committed code or a real production run &#8212; not estimated.
   </text>
   {''.join(tiles)}
