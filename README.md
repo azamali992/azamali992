@@ -15,6 +15,15 @@ build, and which can only be monitored.
 
 ## Featured work
 
+**[ecr-document-pipeline](https://github.com/azamali992/ecr-document-pipeline)** — Production
+document-processing pipeline running against a real multi-year archive of scanned warehouse
+paperwork. OCR + zoom-consensus agreement gate + a from-scratch CRNN digit model + a visual
+page classifier. Auto-file rate went **11.3% → 51.0%** at **99.42% precision**, and the page
+classifier recovered a problem worth more than the speed-up: a hand audit found ~21% of the
+discard pile was genuine records — roughly **1,470 documents a year being lost silently**.
+Runs fully offline; no per-page cloud cost, no document leaves the network.
+`OCR · ONNX · CRNN/CTC · document AI`
+
 **[agentic-ops-platform](https://github.com/azamali992/agentic-ops-platform)** — Multi-agent
 back-office automation where every state-changing action is human-approval-gated *by
 construction*. A supervisor routes to order/inventory/billing specialists; role-based
