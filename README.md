@@ -35,6 +35,17 @@ offline; no per-page cloud cost, no document leaves the network.
 
 `RapidOCR` `ONNX` `CRNN/CTC` `document AI` `offline inference`
 
+### [munshi](https://github.com/azamali992/munshi) &nbsp;·&nbsp; product
+
+**Your AI back office, in your pocket.** Six approval-gated agents — order, godown,
+delivery, hisaab, wasooli, and a manager that only routes — run a small distributor's whole
+order-to-cash loop inside one self-contained mobile PWA. No ERP, no cloud dependency.
+Roles are enforced as tool boundaries, every stop is closed against the **customer's OTP**,
+and a 21-step scripted business day gates CI with a safety invariant checked from the audit
+log **independently of the risk registry** — un-gating one money tool fails the build.
+
+`LangChain 1.4` `LangGraph` `multi-agent` `PWA` `FastAPI` `SQLite` `MLflow`
+
 ### [agentic-ops-platform](https://github.com/azamali992/agentic-ops-platform)
 
 Multi-agent back-office automation where **every state-changing action is human-approval-gated
